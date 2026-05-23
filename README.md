@@ -52,4 +52,4 @@ Final validation accuracy achieved:
 - final_outputs.zip
 
 ## Author
-Bhanu Prasad
+Bhanu Prasad Mudraboina
