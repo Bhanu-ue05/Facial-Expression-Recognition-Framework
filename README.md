@@ -1,4 +1,4 @@
-# Human Face Recognition Framework
+# Face Expression Recognition Framework
 ### Facial Emotion Classification Using CNN and Transfer Learning on RAF-DB
 
 **Author:** Bhanu Prasad Mudraboina  
