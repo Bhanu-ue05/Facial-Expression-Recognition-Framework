@@ -1,0 +1,8 @@
+research_question,question,answer_helper
+RQ1,How accurately does a custom CNN classify RAF-DB images?,"Use Custom_CNN accuracy, macro F1, confusion matrix, and curves."
+RQ2,Does transfer learning improve performance?,Compare MobileNetV2 and ResNet50 against Custom_CNN.
+RQ3,Best trade-off between performance and cost?,Best macro F1: ResNet50; fastest: Custom_CNN; smallest: Custom_CNN.
+RQ4,Which regions are used in correct predictions?,Use figure_05_gradcam_correct_predictions.pdf.
+RQ5,Do attention patterns differ across models?,Compare Grad-CAM overlays across all models.
+RQ6,What does SHAP show?,Use SHAP signed evidence and shap_explanation_summary CSV files.
+RQ7,Can XAI diagnose misclassifications?,Use figure_06_gradcam_misclassified_predictions.pdf.

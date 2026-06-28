@@ -1,0 +1,7 @@
+model,layer_name,layer_type,output_shape,param_count,trainable
+MobileNetV2,input_image,InputLayer,"(None, 224, 224, 3)",0,True
+MobileNetV2,mobilenetv2_1.00_224,Functional,"(None, 7, 7, 1280)",2257984,False
+MobileNetV2,mobilenet_gap,GlobalAveragePooling2D,"(None, 1280)",0,True
+MobileNetV2,mobilenet_dense1,Dense,"(None, 256)",327936,True
+MobileNetV2,mobilenet_dropout,Dropout,"(None, 256)",0,True
+MobileNetV2,predictions,Dense,"(None, 7)",1799,True

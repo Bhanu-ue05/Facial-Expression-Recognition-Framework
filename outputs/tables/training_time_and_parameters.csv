@@ -1,0 +1,4 @@
+model,training_stage,training_time_seconds,stopped_epoch,stop_reason,total_params,trainable_params,non_trainable_params
+Custom_CNN,main,6273.883712053299,,,457927,456967,960
+MobileNetV2,head_plus_fine_tune,7622.364848852158,head=None; fine_tune=22,head=None; fine_tune=Stopped at epoch 22: val_loss stopped improving for 4 epochs and train-val accuracy gap is 0.0805.,2587719,1993095,594624
+ResNet50,head_plus_fine_tune,8408.785794496536,head=None; fine_tune=11,head=None; fine_tune=Stopped at epoch 11: val_loss stopped improving for 3 epochs and train-val accuracy gap is 0.1410.,24114055,17448711,6665344

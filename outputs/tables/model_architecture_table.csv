@@ -1,0 +1,4 @@
+model,input_size,base_model,main_layers,preprocessing,gradcam_layer
+Custom CNN,224x224x3,None,4 Conv blocks + GAP + Dense + Dropout + Softmax,"Rescale to [0,1]",custom_last_conv
+MobileNetV2,224x224x3,ImageNet MobileNetV2,MobileNetV2 + GAP + Dense + Dropout + Softmax,mobilenet_v2.preprocess_input,out_relu
+ResNet50,224x224x3,ImageNet ResNet50,ResNet50 + GAP + Dense + Dropout + Softmax,resnet50.preprocess_input,conv5_block3_out

@@ -1,0 +1,4 @@
+Model,Accuracy,Macro F1-Score,Weighted F1-Score,Training Time Seconds,Parameters,Trainable Parameters,Grad-CAM Quality,SHAP Interpretability,Overall Finding
+Custom_CNN,0.698371335504886,0.5553011340346093,0.6875768684065074,6273.883712053299,457927,456967,Medium,Medium,Edit after checking Grad-CAM and SHAP outputs
+MobileNetV2,0.7342019543973941,0.635576325364616,0.7300269633178931,7622.364848852158,2587719,1993095,High,High,Edit after checking Grad-CAM and SHAP outputs
+ResNet50,0.7537459283387622,0.6543695454046317,0.7485579954761534,8408.785794496536,24114055,17448711,High,Medium-High,Edit after checking Grad-CAM and SHAP outputs

@@ -1,0 +1,10 @@
+item,value
+Dataset name,RAF-DB Face Emotion Dataset
+Dataset source path,/kaggle/input/datasets/nishchalchandel/raf-db-face-emotion-dataset
+Task,Facial emotion image classification
+Number of classes,7
+Class names,"angry, disgust, fear, happy, neutral, sad, surprise"
+Image size used,224x224 RGB
+Train images,12271
+Validation images,1533
+Test images,1535

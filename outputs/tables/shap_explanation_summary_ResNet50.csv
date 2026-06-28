@@ -1,0 +1,4 @@
+model,file_path,true_label,predicted_label,confidence,mean_abs_shap,max_abs_shap
+ResNet50,/kaggle/input/datasets/nishchalchandel/raf-db-face-emotion-dataset/test/angry/test_0037_aligned.jpg,angry,angry,0.9983104467391968,0.00038129888783854934,0.016340099275112152
+ResNet50,/kaggle/input/datasets/nishchalchandel/raf-db-face-emotion-dataset/test/angry/test_0349_aligned.jpg,angry,angry,0.9227102398872375,0.0005947295907303998,0.015309398993849754
+ResNet50,/kaggle/input/datasets/nishchalchandel/raf-db-face-emotion-dataset/test/angry/test_0793_aligned.jpg,angry,angry,0.9840291142463684,0.000521216798754307,0.010036631487309933

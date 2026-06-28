@@ -1,0 +1,18 @@
+model,layer_name,layer_type,output_shape,param_count,trainable
+Custom_CNN,input_image,InputLayer,"(None, 224, 224, 3)",0,True
+Custom_CNN,custom_conv1,Conv2D,"(None, 224, 224, 32)",896,True
+Custom_CNN,custom_bn1,BatchNormalization,"(None, 224, 224, 32)",128,True
+Custom_CNN,custom_pool1,MaxPooling2D,"(None, 112, 112, 32)",0,True
+Custom_CNN,custom_conv2,Conv2D,"(None, 112, 112, 64)",18496,True
+Custom_CNN,custom_bn2,BatchNormalization,"(None, 112, 112, 64)",256,True
+Custom_CNN,custom_pool2,MaxPooling2D,"(None, 56, 56, 64)",0,True
+Custom_CNN,custom_conv3,Conv2D,"(None, 56, 56, 128)",73856,True
+Custom_CNN,custom_bn3,BatchNormalization,"(None, 56, 56, 128)",512,True
+Custom_CNN,custom_pool3,MaxPooling2D,"(None, 28, 28, 128)",0,True
+Custom_CNN,custom_last_conv,Conv2D,"(None, 28, 28, 256)",295168,True
+Custom_CNN,custom_bn4,BatchNormalization,"(None, 28, 28, 256)",1024,True
+Custom_CNN,custom_pool4,MaxPooling2D,"(None, 14, 14, 256)",0,True
+Custom_CNN,custom_gap,GlobalAveragePooling2D,"(None, 256)",0,True
+Custom_CNN,custom_dense1,Dense,"(None, 256)",65792,True
+Custom_CNN,custom_dropout,Dropout,"(None, 256)",0,True
+Custom_CNN,predictions,Dense,"(None, 7)",1799,True
