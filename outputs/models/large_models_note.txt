@@ -1,0 +1,17 @@
+Large Model Files Note
+
+The following large model files were not uploaded to GitHub because they exceed the normal GitHub browser upload limit:
+
+1. ResNet50_head_best.weights.h5
+2. ResNet50_best.keras
+3. ResNet50_fine_tune_best.weights.h5
+4. MobileNetV2_fine_tune_best.weights.h5
+5. MobileNetV2_best.keras
+
+The training notebook contains the code to reproduce these model files.
+
+Uploaded model files:
+
+1. Custom_CNN_best.keras
+2. Custom_CNN_main_best.weights.h5
+3. MobileNetV2_head_best.weights.h5
